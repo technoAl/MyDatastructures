@@ -1,4 +1,3 @@
-import java.util.Objects;
 
 public class MyArrayList<T> {
 	T[] arr;
@@ -32,7 +31,7 @@ public class MyArrayList<T> {
 		if(index < 0 || index >= size){
 			return;
 		}
-		
+
 		if(size + 1 == arr.length){
 			doubleArray();
 		}
